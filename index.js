@@ -29,7 +29,7 @@ var server = http.createServer((req,res) =>{
     //Log the request path
     console.log('Request received on path: '+trimmedPath
     +' with method: '+method
-    +' with these quesry string parameters: ',queryStringObject);
+    +' with these query string parameters: ',queryStringObject);
 })
 //Start the server and have it listen on port 3000
 server.listen(3000, ()=>{
